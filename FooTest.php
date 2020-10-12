@@ -3,7 +3,8 @@ class FooTest extends PHPUnit\Framework\TestCase
 {
     public function test1()
     {
-       echo 'test';
+        echo 'test';
+        echo 'test';
        $this->assertEquals(1, 1); 
     }
     
