@@ -1,6 +1,12 @@
 <?php
-class FooTest extends PHPUnit\Framework\TestCase
+class Foo
 {
+
+    public function 1()
+    {
+        echo 'test';
+    }
+
     public function test1()
     {
         echo 'test';
