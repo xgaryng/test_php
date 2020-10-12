@@ -1,0 +1,12 @@
+{
+    "name": "barxingo/test_php",
+    "authors": [
+        {
+            "name": "xingobar",
+            "email": "gary840227@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.4"
+    }
+}
