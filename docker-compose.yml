@@ -1,0 +1,13 @@
+version: "3.1"
+
+services:
+  hiskio_jenkins:
+    build: "./docker/jenkins"
+    container_name: "hiskio_jenkins"
+    ports:
+      - 8888:8080
+    volumes:
+      - jenkins_data:/var/jenkins_home
+
+volumes:
+  jenkins_data:
