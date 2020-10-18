@@ -2,10 +2,6 @@
 class Foo
 {
 
-    public function 1()
-    {
-        echo 'test';
-    }
 
     public function test1()
     {
