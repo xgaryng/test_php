@@ -9,7 +9,7 @@ RUN apk add --no-cache git
 RUN apk add vim
 
 # 安裝跟 php 相關的指令, 否則無法使用 composer
-RUN apk add curl php7 php7-json php7-openssl php7-iconv php7-phar php7-mbstring php7-xml php-dom
+RUN apk add curl php7 php7-json php7-openssl php7-iconv php7-phar php7-mbstring php7-xml php-dom php7-pdo_sqlite php7-pdo_mysql php7-session
 
 # 安裝 composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
@@ -39,12 +39,15 @@ RUN pear install PHP_CodeSniffer
 # 安裝 phploc 統計專案規模大小
 # https://github.com/sebastianbergmann/phploc
 RUN wget https://phar.phpunit.de/phploc.phar
-RUN cp ./phploc.phar /usr/bin
+RUN cp ./phploc.phar /usr/bin/phploc
 RUN chmod +x /usr/bin/phploc
 
 # 安裝 phpcpd Copy/Paste Detector (CPD) for php code
 RUN wget https://phar.phpunit.de/phpcpd.phar
-RUN cp ./phpcpd.phar /usr/bin
+RUN cp ./phpcpd.phar /usr/bin/phpcpd
 RUN chmod +x /usr/bin/phpcpd
 
-
+# 安裝 phpmd 找出專案複雜度過高的程式碼
+RUN wget https://github.com/phpmd/phpmd/releases/download/2.9.1/phpmd.phar
+RUN cp ./phpmd.phar /usr/bin/phpmd
+RUN chmod +x /usr/bin/phpmd
