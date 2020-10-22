@@ -6,6 +6,11 @@ class Foo
      echo 'tetst';
    }
 
+   public function test2()
+   {
+       echo 'test';
+   }
+
     public function test1()
     {
         echo 'test';
