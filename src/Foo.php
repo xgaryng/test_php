@@ -1,6 +1,11 @@
 <?php
 class Foo
 {
+    public function ddd()
+    {
+        echo 'tet';
+    }
+
     public function ccc()
     {
         echo 'testests';
