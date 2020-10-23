@@ -1,6 +1,11 @@
 <?php
 class Foo
 {
+    public function eee()
+    {
+        echo 'main_test';
+    }
+
     public function ddd()
     {
         echo 'bbb';
