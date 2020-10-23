@@ -1,10 +1,6 @@
 <?php
 class Foo
 {
-    public function eee()
-    {
-        echo 'eeee';
-    }
 
     public function fffaa()
     {
