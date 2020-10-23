@@ -1,11 +1,6 @@
 <?php
 class Foo
 {
-    public function fff()
-    {
-        echo 'fff';
-    }
-
     public function ff2()
     {
         echo 'ff2';
