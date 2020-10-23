@@ -1,10 +1,7 @@
 <?php
 class Foo
 {
-    public function ddd()
-    {
-        echo 'bbb';
-    }
+
     public function ccc()
     {
         echo 'bbb';
