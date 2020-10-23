@@ -6,7 +6,7 @@ class Foo
         echo 'eeee';
     }
 
-    public function eee()
+    public function fffaa()
     {
         echo 'eee';
     }
