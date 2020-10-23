@@ -1,6 +1,10 @@
 <?php
 class Foo
 {
+    public function main_test()
+    {
+        echo 'test';
+    }
 
     public function ff2()
     {
