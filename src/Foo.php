@@ -6,10 +6,7 @@ class Foo
         echo 'main_test';
     }
 
-    public function ddd()
-    {
-        echo 'bbb';
-    }
+
     public function ccc()
     {
         echo 'bbb';
