@@ -1,6 +1,11 @@
 <?php
 class Foo
 {
+    public function aaa()
+    {
+        echo 'test';
+    }
+
    public function ttt()
    {
      echo 'tetst';
