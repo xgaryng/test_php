@@ -6,6 +6,10 @@ class Foo
         echo 'eeee';
     }
 
+    public function eee()
+    {
+        echo 'eee';
+    }
     public function ccc()
     {
         echo 'bbb';
