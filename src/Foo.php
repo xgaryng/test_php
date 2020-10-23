@@ -1,6 +1,10 @@
 <?php
 class Foo
 {
+    public function eee()
+    {
+        echo 'eee';
+    }
     public function ddd()
     {
         echo 'bbb';
