@@ -1,10 +1,6 @@
 <?php
 class Foo
 {
-    public function ccc()
-    {
-        echo 'cccc';
-    }
     public function bbb()
     {
         echo 'bbbb';
