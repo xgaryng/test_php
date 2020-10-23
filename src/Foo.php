@@ -5,6 +5,10 @@ class Foo
     {
         echo 'bbb';
     }
+    public function ccc()
+    {
+        echo 'bbb';
+    }
     public function bbb()
     {
         echo 'bbb';
