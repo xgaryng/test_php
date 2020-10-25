@@ -3,7 +3,7 @@ class Foo
 {
     public function main_test()
     {
-        echo 'main_test bb';
+        echo 'main_test';
     }
 
     public function ff2()
