@@ -1,0 +1,3 @@
+[submodule "test_jenkinsfile"]
+	path = test_jenkinsfile
+	url = https://github.com/xgaryng/test_jenkinsfile.git
